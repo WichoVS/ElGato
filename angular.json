@@ -117,8 +117,16 @@
               "devServerTarget": "ElGato:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ElGato"
+    }
+  },
+  "defaultProject": "ElGato",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,27 @@
+.playgame
+{
+  margin-top: 2%;
+  margin-bottom: auto;
+}
+
+.boxplay {
+  background-color: beige;
+  width: 30%;
+  height: auto;
+  justify-content: center;
+  margin: 5px;
+  animation-delay: 1s;
+}
+
+.boxplay> img {
+  justify-content: center;
+  width: 60%;
+  height: auto;
+}
+
+.boxplay:hover{
+  filter:invert();
+
+}
+
+
