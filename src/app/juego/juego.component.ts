@@ -23,7 +23,7 @@ export class JuegoComponent implements OnInit {
   turno: Boolean;
   tablero: Number[];
 
-  tableroImgs: String[] = ['/assets/-.png', '/assets/x.png', '/assets/o.png'];
+  tableroImgs: String[] = ['./assets/-.png', './assets/x.png', './assets/o.png'];
   isTableroFull: Boolean;
 
   constructor(private gameInfo: GameinfoService) {
